@@ -9,4 +9,3 @@ class Car:
     def __init__(self, license, driver):
         self.licence = license
         self.driver  = driver
-        
