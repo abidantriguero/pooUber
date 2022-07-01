@@ -17,3 +17,6 @@
     var uberVan = new UberVan("MDN012", new Account("Jhon Wizdou", "FTR691"), "Toyota", "Cross")
     uberVan.passenger = 4;
     uberVan.printDataCar();
+
+    var user = new User("Pepe Lucho", "123458SC", "pepe@platzi.io", "ERUI12345!@#$")
+    user.printDataUser();
