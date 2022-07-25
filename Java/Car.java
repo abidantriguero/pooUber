@@ -13,6 +13,6 @@ public class Car {
 
 
     void printDataCar() {
-        System.out.println("License: " + licence + " Name Driver: " + driver.name);
+        System.out.println("License: " + licence + " Name Driver: " + driver.name + " Passenger: " + passenger);
     }
 }
