@@ -1,9 +1,9 @@
 package Java;
 
 public class Car {
-    Integer id;
-    String licence;
-    Account driver;
+    private Integer id;
+    private String licence;
+    private Account driver;
     private Integer passenger;
 
     public Car(String license, Account driver) {
@@ -28,4 +28,5 @@ public class Car {
             System.out.println("Necesitas asignar 4 pasajeros");
         }
     }
+    
 }
